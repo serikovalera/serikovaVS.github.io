@@ -308,7 +308,7 @@ a:hover {
 /* Hide the images by default */
 .mySlides {
   display: none;
-    justify-self:center;
+  justify-self: center;
 }
 
 /* Next & previous buttons */
