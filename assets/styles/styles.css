@@ -305,12 +305,7 @@ a:hover {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -369,6 +364,14 @@ a:hover {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  height: 600px;
 }
 
 .active, .dot:hover {
